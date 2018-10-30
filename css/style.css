@@ -7,3 +7,36 @@ body {
   border-bottom: #008ed6 3px solid;
   opacity: 0.8;
 }
+
+#home-section {
+  background: url('../img/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+  background-attachment: fixed; /* image fixed when scroll */
+  min-height: 1000px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  width: 100%;
+  min-height: inherit;
+  top: 0;
+  left: 0;
+
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  margin-top: 150px;
+}
+
+#home-section .home-inner .card-form {
+  opacity: 0.8;
+}
+
+#home-section .home-inner .fas.fa-check {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
