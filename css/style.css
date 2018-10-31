@@ -34,7 +34,8 @@ body {
   opacity: 0.8;
 }
 
-#home-section .home-inner .fas.fa-check {
+#home-section .home-inner .fas.fa-check,
+#create-section .fas.fa-check {
   color: #008ed6;
   background: #fff;
   padding: 5px;
